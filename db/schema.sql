@@ -1,3 +1,2 @@
 DROP DATABASE IF EXISTS webstore_db;
-
 CREATE DATABASE webstore_db;
