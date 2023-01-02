@@ -18,7 +18,9 @@ category_name:{
 },
 {
     sequelize,
-    timestamps: true,
+    timestamps: false,
+    freezeTableName: true,
+    underscored: true,
     modelName: 'category'
 }
 );
