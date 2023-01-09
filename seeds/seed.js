@@ -18,7 +18,7 @@ const product = await Product.bulkCreate(productSeeds,{
     individualHooks: true,
     returning: true,
 })
-const productTagSeeds = await ProductTag.bulkCreate(productTagSeeds,{
+const productTag = await ProductTag.bulkCreate(productTagSeeds,{
     individualHooks: true,
     returning: true,
 })
@@ -26,6 +26,8 @@ const tag = await Tag.bulkCreate(tagSeeds,{
     individualHooks: true,
     returning: true,
 })
+
+process.exit(0);
 }
 
 seedDatabase();
