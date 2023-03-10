@@ -29,4 +29,4 @@ ProductTag.init(
   }
 );
 
-module.exports = ProductTag;  
+module.exports = ProductTag;
